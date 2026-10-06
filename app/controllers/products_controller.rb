@@ -1,4 +1,4 @@
-class ProductsController < ApplicationRecord
+class ProductsController < ApplicationController
   def index
     @products = Product.includes(:category).all
   end
