@@ -3,7 +3,7 @@
 <ul>
   <% @products.each do |product| %>
     <li>
-      <strong><%= product.title %></strong> - 
+      <strong><%= link_to product.title, product_path(product) %></strong> - 
       <%= number_to_currency(product.price) %> 
       (Stock: <%= product.stock_quantity %>)
       <p><%= product.description %></p>
