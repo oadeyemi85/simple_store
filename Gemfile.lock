@@ -105,7 +105,7 @@ GEM
       reline (>= 0.3.8)
     drb (2.2.3)
     erb (6.0.7)
-    error_highlight (0.7.0)
+    error_highlight (0.7.2)
     erubi (1.13.1)
     faker (3.6.1)
       i18n (>= 1.8.11, < 2)
