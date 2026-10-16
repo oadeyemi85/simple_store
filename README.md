@@ -21,16 +21,16 @@ categories come from that file.
 
 ## Tools this version uses
 
-- Ruby **3.1.2** — the programming language Rails runs on.
-- Rails **7.2.4** — the web framework. The locked dependency versions are in
+- Ruby **3.4.11** — the programming language Rails runs on.
+- Rails **8.1.4** — the web framework. The locked dependency versions are in
   `Gemfile.lock`.
 - SQLite — a small database stored as a file on your computer.
 - Bundler — installs the Ruby libraries listed in `Gemfile`.
 
 You need Ruby and its RubyGems package manager installed. On Windows, use a Ruby
 installation that can install gems, and open PowerShell in the project folder.
-The supplied `.ruby-version` says `3.1.2`. If you use a Ruby version manager,
-select Ruby 3.1.2 before following the commands below.
+The supplied `.ruby-version` says `3.4.11`. If you use a Ruby version manager,
+select Ruby 3.4.11 before following the commands below.
 
 ## Run this copy of Simple Store
 
@@ -87,8 +87,8 @@ make a new Rails project with SQLite, a matching Rails setup can be started
 with:
 
 ```powershell
-gem install rails -v 7.2.4
-rails _7.2.4_ new simple_store --database=sqlite3
+gem install rails -v 8.1.4
+rails _8.1.4_ new simple_store --database=sqlite3
 cd simple_store
 ```
 
@@ -198,7 +198,7 @@ To reproduce the data and pages from this project:
 
 1. Copy or download the **whole `simple_store` folder**. The CSV is part of the
    project; it is not recreated by the seed command.
-2. Use Ruby 3.1.2 and install dependencies with `bundle install`.
+2. Use Ruby 3.4.11 and install dependencies with `bundle install`.
 3. From the `simple_store` folder, run:
 
    ```powershell
